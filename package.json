@@ -23,7 +23,6 @@
     "url": "https://github.com/phocus/gtk/issues"
   },
   "homepage": "https://github.com/phocus/gtk#readme",
-  "dependencies": {},
   "devDependencies": {
     "sass": "^1.32.6"
   }
