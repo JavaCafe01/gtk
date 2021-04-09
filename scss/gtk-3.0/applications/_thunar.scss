@@ -14,15 +14,15 @@ window.thunar {
   }
 
   .sidebar {
-    background-color: rgba(41, 52, 61, 0.4);
-    box-shadow: inset -20px 20px 15px -25px rgba(0, 0, 0, 0.2);
+    background-color: $background-2;
     padding: 1rem;
   }
 
   treeview {
     padding: 3px;
     &:selected {
-      background: $primary-accent;
+      background: $background-3;
+      color: #eaeaea;
     }
   }
 
@@ -46,12 +46,5 @@ window.thunar {
   }
   toolbar * {
     background: none;
-  }
-
-  /* hide separator */
-  separator {
-    background-image: image(rgba(255, 255, 255, 0));
-    background-size: 1px 1px;
-    background-position: center center;
   }
 }
