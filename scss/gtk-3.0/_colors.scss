@@ -1,6 +1,8 @@
-$background-1: #1a2026;
-$background-2: #29343d;
-$background-3: #3b4b58;
+$surface-1: hsl(210, 19%, 13%);
+$surface-2: hsl(210, 19%, 17%);
+$surface-3: hsl(207, 20%, 20%);
+$surface-4: hsl(207, 20%, 23%);
+$surface-5: hsl(207, 20%, 29%);
 
 $accent-1: #f9929b;
 $accent-2: #7ed491;
@@ -8,13 +10,15 @@ $accent-3: #fbdf90;
 $accent-4: #a3b8ef;
 $accent-5: #ccaced;
 $accent-6: #9ce5c0;
-$accent-7: $accent-6;
+$accent-7: $accent-4;
 $accent-8: #c7e5d6;
 
 $primary-accent: $accent-7;
-$secondary-accent: $accent-4;
+$secondary-accent: $accent-6;
 
-$foreground-color: lighten($background-3, 45%);
+$foreground-color: lighten($surface-5, 35%);
+
+$highlight: rgba(255,255,255,0.15);
 
 // TODO: is there a better way to do this? this is for example used in gnome-calculator for the result top-border
-@define-color borders #{"" +$background-2};
+@define-color borders #{"" +$surface-2};
