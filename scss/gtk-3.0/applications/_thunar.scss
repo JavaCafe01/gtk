@@ -17,14 +17,14 @@ window.thunar {
   }
 
   .sidebar {
-    background-color: rgba(26, 32, 38, 0.2148);
+    background-color: rgba(41, 52, 61, 1);
     padding: 1rem;
   }
 
   treeview {
     padding: 3px;
     &:selected {
-      background: rgba(26, 32, 38, 0);
+      background: rgba(41, 52, 61, 1);
       color: #ffffff;
     }
   }
